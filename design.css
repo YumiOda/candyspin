@@ -1,0 +1,209 @@
+@charset "utf-8";
+h2 span{
+    font-size: 28px;
+}
+.wrap{
+    background-image: url(../images/bg_kira.png);
+    overflow: hidden;
+    padding-top: 60px;
+}
+
+
+.design{
+    padding-top: 80px;
+
+}
+.design li{
+	position:relative;
+	float:left;
+	width:320px;
+	margin: 0 60px 60px 65px;
+	color:#FFF;
+	line-height:2em;
+}
+
+.design li:nth-child(3n){
+	margin-right:0;
+}
+
+.design li img{
+	vertical-align:bottom;
+}
+
+.design div{
+	position:absolute;
+	display:none;
+	width:100%;
+	height:320px;
+	padding:20px;
+	background:rgba( 0,255,255,0.08);
+	top:0;
+	left:0;
+	box-sizing:border-box;
+}
+
+main p{
+	position:relative;
+	top:10px;
+    color: #806d5e;
+}
+.catch{
+    text-align: center;
+    
+    background-position: left;
+    width: 80%;
+    border-bottom: 1px solid #806d5e;
+    margin-left: 30px;
+    font-family: 游明朝;
+    padding-top: 10px;
+    color: #806d5e;
+}
+.catch::before{
+    content: url(../images/buttom_small.png);
+    vertical-align: middle;
+    margin-right: 10px;
+}
+.koe{
+    background-image: url(../images/bottum_big.png);
+    background-repeat: no-repeat;
+}
+.modal {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 2;
+    text-align: center;
+    background: #fff;
+    padding: 30px;
+    
+
+  }
+   
+  .modal-overlay{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 120%;
+    background-color: rgba(0,0,0,0.65);
+    z-index: 1;
+  }
+   
+  .modal-open,
+  .modal-close {
+    cursor: pointer;
+  }
+  .under{
+      background-image: url(../images/bg_kira.png);
+      padding-top: 60px;
+      margin: auto;
+      padding-bottom: 60px;
+     
+  }
+  .voice{
+      padding-top: 70px;
+      width: 80%;
+      margin: auto;
+  }
+  .modal-open img{
+      
+    width: 100%;
+  }
+
+span {
+    color: #806d5e;
+    font-family: 游明朝;
+    font-size: 24px;
+    
+}
+@media screen and (max-width: 640px) {
+
+    img{
+      max-width: 100%;
+      height: auto;
+    }
+     main{
+        width: 100%;
+        
+        margin-left: 30px;
+     }
+    
+     body{
+       width: auto;
+     }
+     .image img{
+       width: auto;
+     }
+     .flex{
+      display: block;
+      width: 100%;
+      margin-bottom: 10px;
+     }
+     #stkr{
+         display: none;
+     }
+     .design li{
+         width: 160px;
+         margin: 0;
+         float: none;
+     }
+     .wrap{
+         padding-top: 30px;
+     }
+     .design{
+        padding-top: 30px;
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 30px;
+        justify-content: space-between;
+        padding-left: 15px;
+        padding-right: 15px;
+     }
+     .catch {
+        font-size: 10px;
+        display: block;
+        margin: 0;
+        width: 100%;
+        letter-spacing: -0.8px;
+        margin-bottom: 10px;
+        border-bottom: none;
+        background-image: url(../images/buttom_small.png);
+        background-repeat: no-repeat;
+        background-size: 20px;
+        padding-top: 0;
+     }
+     .catch::before{
+        size: 20px;
+        display: none;
+
+     }
+     br{
+         display: none;
+     }
+     .design div{
+         width: 100%;
+         font-size: 8px;
+         height: 75%;
+         line-height: 2em;
+         overflow: hidden;
+         padding: 10px;
+     }
+     .under{
+         padding-top: 30px;
+     }
+     .voice{
+         padding-top: 30px;
+     }
+     .modal-open img{
+         width: auto;
+         margin-left: 30px;
+     }
+     .totop{
+        margin-bottom: 0;
+     }
+
+
+    }
