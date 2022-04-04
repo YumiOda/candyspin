@@ -1,0 +1,232 @@
+@charset "utf-8";
+.inner{
+    width: 960px;
+    margin: auto;
+}
+body{
+    background-image: url(../images/bg_kira.png);
+    
+}
+.text{
+    color: #806d5e;
+    line-height: 26px;
+    font-size: 18px;
+    font-family: 游明朝;
+    word-break: keep-all;
+    margin-bottom: 70px;
+    text-align: center;
+}
+h2{
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    width: 450px;
+}
+h3{
+    
+    font-family: 游明朝;
+    font-size: 20px;
+    color: #806d5e;
+    border-bottom: 1px solid #806d5e;
+    width: 340px;
+    margin: auto;
+    width: 200px;
+    margin-bottom: 70px;
+    
+}
+h3::before{
+    content: url(../images/buttom_small.png);
+    vertical-align: middle;
+    margin-right: 20px;
+}
+
+dl{
+    border: 1px solid #e5e5e5;
+    border-bottom: none;
+    margin-top: 30px;
+    font-family: 游明朝;
+    color: #806d5e;
+}
+form dl dt{
+    height: 85px;
+    padding: 30px 0 0 30px;
+    box-sizing: border-box;
+    font-size: 16px;
+    color: #666;
+    float: left;
+    clear: left;
+    font-weight: bold;
+    font-family: 游明朝;
+    color: #806d5e;
+}
+form dl dt span{
+    display: block;
+    font-size: 14px;
+    color:#ba7733;
+    font-weight: normal;
+    font-family: 游明朝;
+    
+}
+form dl dd{
+    height: 110px;
+    padding-left: 235px;
+    padding-top: 15px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #e5e5e5;
+    background: linear-gradient(#fff 80%, #fafafa);
+}
+
+dl .flex{
+    justify-content: flex-start;
+
+}
+dl .flex dt{
+    width: 235px;
+    height: 85px;
+    padding: 30px 0 0 30px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #e5e5e5;
+}
+dl .flex dd{
+    width: 450px;
+    height: 100px;
+    padding-top: 15px;
+    box-sizing: border-box;
+    border-bottom: 1px solid#e5e5e5;
+    background: linear-gradient(#fff 80%, #fafafa);
+}
+input[type="text"],
+input[type="email"],
+textarea{
+    width: 95%;
+    height: 65px;
+    box-sizing: border-box;
+    background-color: #effafa;
+    border: 1px solid #d1f0f0;
+   
+}
+textarea{
+    height: 141px;
+    resize: none;
+}
+.alert{
+    color: #ba7733;
+    font-size: 12px;
+    margin-top: 10px;
+    font-family: 游明朝;
+}
+select{
+    margin-top: 12px;
+}
+form dl dt:last-of-type,
+form dl dd:last-of-type{
+    height: 173px;
+}
+.btn{text-align: center;
+    margin: 30px 0;
+
+}
+input[type="submit"]{
+    width: 165px;
+    height: 35px;
+    background-color: rgba( 0,255,255,0.1);
+    border: none;
+    cursor: pointer;
+    font-family: 游明朝;
+    color: #806d5e;
+}
+.gray{
+    font-size: 13px;
+    line-height: 20px;
+    color: #806d5e;
+    text-align: center;
+    padding: 20px 0;
+    background-color: rgba( 0,255,255,0.1);
+}
+@media screen and (max-width: 640px) {
+
+    img{
+      max-width: 100%;
+      height: auto;
+    }
+     main{
+        width: 100%;
+        
+        margin-left: 30px;
+     }
+    
+     body{
+       width: auto;
+     }
+     .image img{
+       width: auto;
+     }
+     .flex{
+      display: block;
+      width: 100%;
+      margin-bottom: 10px;
+     }
+     #stkr{
+         display: none;
+     }
+     .inner{
+         width: auto;
+     }
+     h2{
+        width: auto;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        font-size: 20px;
+        background-size: 35px;
+     }
+     br{
+         display: none;
+        
+     }
+     .text{
+        font-size: 16px;
+        text-align: left;
+        margin-bottom: 20px;
+        padding: 10px;
+     }
+     h3{
+         width: auto;
+         margin-bottom: 30px;
+         text-align: center;
+     }
+     dl .flex dt{
+         width: auto;
+         font-size: 14px;
+     }
+     dl .flex dd{
+         width: auto;
+        
+     }
+     form dl dd{
+        width: 100%;
+        padding: 20px;
+        height: auto;
+     }
+
+    form dl dt span{
+        font-size: 10px;
+    }
+    form dl dt{
+        font-size: 12px;
+        float: none;
+        height: auto;
+        padding: 10px;
+    }
+    input[type="text"]{
+        height: 65px;
+    }
+    dl{
+        background-color: #fff;
+    }
+    form dl dt:last-of-type{
+        height: auto;
+    }
+    .gray{
+        text-align: left;
+    }
+}
