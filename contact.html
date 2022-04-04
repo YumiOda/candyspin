@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>CONTACT_FORTUNA</title>
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/contact.css">
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    
+    <script src="../js/script.js"></script>
+    <script src="../js/contact.js"></script>
+    <link rel="icon" href="../favicon_fortuna.ico">
+  </head> 
+
+  <body>
+  
+    
+    <header class="flex">
+      <div id="stkr"></div>
+        <div class="links">
+         <div><a href="#" class="stkr-target">リンク１</a></div>
+        </div>
+      <div class="left">
+        <p class="hd_logo"><img src="../images/top_header_logo.png" alt="ヘッダーロゴ"></p>
+      </div>
+      <div class="right">
+        <div class="ue flex">
+          <p class="name">Nail Salon Fortuna&nbsp;<a>ネイルサロン&nbsp;フォルトゥーナ</a></p>
+          <p class="yoyaku_btn1"><a href="../HTML/contact.html"><img src="../images/yoyaku_btn.png" alt="予約はこちら"></a></p>
+        </div>
+        <div class="sita">
+          <ul class="flex">
+            <li class="nav"><a href="../index.html">Home</a></li>
+            <li class="nav"><a href="../HTML/concept.html">Concept</a></li>
+            <li class="nav"><a href="../HTML/menu.html">Menu</a></li>
+            <li class="nav"><a href="../HTML/design.html">Design</a></li>
+            <li class="nav"><a href="../HTML/Q&A.html">Q&A</a></li>
+            <li class="nav"><a href="../HTML/contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </div> 
+    </header>
+    <main>
+        <!--CONTACT-->
+        <section class="inner">
+          
+            <h2>CONTACT<span>&nbsp;&nbsp;予約・お問い合わせ</span></h2>
+            
+          
+          
+            <p class="text">必要事項を入力し、送信をクリックしてください。<br>
+                            どんな内容でもお気軽にお問合せください。<br>
+                            お急ぎの方はお電話にてお問い合わせください。<br>
+                            090-1111-3939</p>
+            <h3>入力フォーム</h3>
+            
+            <form action="program.php" method="post">
+              <dl>
+                <dt>お名前<span>必須</span></dt>
+                <dd id="nameSection">
+                  <input type="text" name="name"
+                  id="name">
+                  <p class="alert">漢字でご記入ください</p>
+                </dd>
+  
+                <dt>フリガナ</dt>
+                <dd id="furiSection">
+                  <input type="text" name="kana"
+                  id="furi">
+                  <p class="alert">全角カタカナでご記入ください</p>
+                </dd>
+  
+                <dt>メールアドレス<span>必須</span></dt>
+                <dd id="mailSection">
+                  <input type="email" name="email"
+                  id="mail">
+                  <p class="alert">半角英数字でご記入ください</p>
+                </dd>
+  
+                <dt>メールアドレス（確認用）<span>必須</span></dt>
+                <dd id="mail3Section">
+                  <input type="email" name="email2"
+                  id="mail3">
+                  <p class="alert">半角英数字でご記入ください</p>
+                </dd>
+                <dt>ご希望日<span>必須</span></dt>
+                <dd id="prefSection1">
+                  <select name="select1" id="select1">
+                    <option value="none">選択ください</option>
+                    <option value="#">2022/3/1</option>
+                    <option value="#">2022/3/2</option>
+                    <option value="#">2022/3/3</option>
+                    <option value="#">2022/3/4</option>
+                    <option value="#">2022/3/5</option>
+                    <option value="#">2022/3/6</option>
+                    <option value="#">2022/3/7</option>
+                    <option value="#">2022/3/8</option>
+                    <option value="#">2022/3/9</option>
+                    <option value="#">2022/3/10</option>
+                    <option value="#">2022/3/11</option>
+                    <option value="#">2022/3/12</option>
+                    <option value="#">2022/3/13</option>
+                    <option value="#">2022/3/14</option>
+                    <option value="#">2022/3/15</option>
+                    <option value="#">2022/3/16</option>
+                    <option value="#">2022/3/17</option>
+                    <option value="#">2022/3/18</option>
+                    <option value="#">2922/3/19</option>
+                    <option value="#">2022/3/20</option>
+                    <option value="#">2022/3/21</option>
+                    <option value="#">2022/3/22</option>
+                    <option value="#">2022/3/23</option>
+                    <option value="#">2022/3/24</option>
+                    <option value="#">2022/3/25</option>
+                    <option value="#">2022/3/26</option>
+                    <option value="#">2022/3/27</option>
+                    <option value="#">2022/3/28</option>
+                    <option value="#">2022/3/29</option>
+                    <option value="#">2022/3/30</option>
+                    <option value="#">2022/3/31</option>
+                    </select>
+                  <p class="alert">ご選択ください</p>
+                </dd>
+                <dt>第２ご希望日<span>必須</span></dt>
+                <dd id="prefSection2">
+                  <select name="select2" id="select2">
+                    <option value="none">選択ください</option>
+                    <option value="#">2022/3/1</option>
+                    <option value="#">2022/3/2</option>
+                    <option value="#">2022/3/3</option>
+                    <option value="#">2022/3/4</option>
+                    <option value="#">2022/3/5</option>
+                    <option value="#">2022/3/6</option>
+                    <option value="#">2022/3/7</option>
+                    <option value="#">2022/3/8</option>
+                    <option value="#">2022/3/9</option>
+                    <option value="#">2022/3/10</option>
+                    <option value="#">2022/3/11</option>
+                    <option value="#">2022/3/12</option>
+                    <option value="#">2022/3/13</option>
+                    <option value="#">2022/3/14</option>
+                    <option value="#">2022/3/15</option>
+                    <option value="#">2022/3/16</option>
+                    <option value="#">2022/3/17</option>
+                    <option value="#">2022/3/18</option>
+                    <option value="#">2922/3/19</option>
+                    <option value="#">2022/3/20</option>
+                    <option value="#">2022/3/21</option>
+                    <option value="#">2022/3/22</option>
+                    <option value="#">2022/3/23</option>
+                    <option value="#">2022/3/24</option>
+                    <option value="#">2022/3/25</option>
+                    <option value="#">2022/3/26</option>
+                    <option value="#">2022/3/27</option>
+                    <option value="#">2022/3/28</option>
+                    <option value="#">2022/3/29</option>
+                    <option value="#">2022/3/30</option>
+                    <option value="#">2022/3/31</option>
+                    </select>
+                  <p class="alert">ご選択ください</p>
+                </dd>
+                <dt>ご希望時間<span>必須</span></dt>
+                <dd id="prefSection3">
+                  <select name="select3" id="selct3">
+                    <option value="none">選択ください</option>
+                    <option value="#">10:00~</option>
+                    <option value="#">11:00~</option>
+                    <option value="#">12:00~</option>
+                    <option value="#">13:00~</option>
+                    <option value="#">14:00~</option>
+                    <option value="#">15:00~</option>
+                    <option value="#">16:00~</option>
+                    <option value="#">17:00~</option>
+                    <option value="#">18:00~</option>
+                    <option value="#">19:00~</option>
+                    
+                    </select>
+                  <p class="alert">ご選択ください</p>
+                </dd>
+                <dt>第２ご希望時間<span>必須</span></dt>
+                <dd id="prefSection4">
+                  <select name="select4" id="select4">
+                    <option value="none">選択ください</option>
+                    <option value="#">10:00~</option>
+                    <option value="#">11:00~</option>
+                    <option value="#">12:00~</option>
+                    <option value="#">13:00~</option>
+                    <option value="#">14:00~</option>
+                    <option value="#">15:00~</option>
+                    <option value="#">16:00~</option>
+                    <option value="#">17:00~</option>
+                    <option value="#">18:00~</option>
+                    <option value="#">19:00~</option>
+                    
+                    </select>
+                  <p class="alert">ご選択ください</p>
+                </dd>
+  
+                <dt>郵便番号<span>必須</span></dt>
+                <dd id="numberSection">
+                  <input type="text" name="zip" placeholder="例）123-4567"
+                  id="number">
+                  <input type="button" onclick="AjaxZip3.zip2addr('zip','','pref','city');" value="住所検索">
+                  <p class="alert">半角英数字でご記入ください</p>
+                </dd>
+                
+                <dt>都道府県<span>必須</span></dt>
+                <dd id="prefSection">
+                  <select name="pref" id="pref">
+                    <option value="none">選択ください</option>
+                    <option value="北海道">北海道</option>
+                    <option value="青森県">青森県</option>
+                    <option value="岩手県">岩手県</option>
+                    <option value="宮城県">宮城県</option>
+                    <option value="秋田県">秋田県</option>
+                    <option value="山形県">山形県</option>
+                    <option value="福島県">福島県</option>
+                    <option value="茨城県">茨城県</option>
+                    <option value="栃木県">栃木県</option>
+                    <option value="群馬県">群馬県</option>
+                    <option value="埼玉県">埼玉県</option>
+                    <option value="千葉県">千葉県</option>
+                    <option value="東京都">東京都</option>
+                    <option value="神奈川県">神奈川県</option>
+                    <option value="新潟県">新潟県</option>
+                    <option value="富山県">富山県</option>
+                    <option value="石川県">石川県</option>
+                    <option value="福井県">福井県</option>
+                    <option value="山梨県">山梨県</option>
+                    <option value="長野県">長野県</option>
+                    <option value="岐阜県">岐阜県</option>
+                    <option value="静岡県">静岡県</option>
+                    <option value="愛知県">愛知県</option>
+                    <option value="三重県">三重県</option>
+                    <option value="滋賀県">滋賀県</option>
+                    <option value="京都府">京都府</option>
+                    <option value="大阪府">大阪府</option>
+                    <option value="兵庫県">兵庫県</option>
+                    <option value="奈良県">奈良県</option>
+                    <option value="和歌山県">和歌山県</option>
+                    <option value="鳥取県">鳥取県</option>
+                    <option value="島根県">島根県</option>
+                    <option value="岡山県">岡山県</option>
+                    <option value="広島県">広島県</option>
+                    <option value="山口県">山口県</option>
+                    <option value="徳島県">徳島県</option>
+                    <option value="香川県">香川県</option>
+                    <option value="愛媛県">愛媛県</option>
+                    <option value="高知県">高知県</option>
+                    <option value="福岡県">福岡県</option>
+                    <option value="佐賀県">佐賀県</option>
+                    <option value="長崎県">長崎県</option>
+                    <option value="熊本県">熊本県</option>
+                    <option value="大分県">大分県</option>
+                    <option value="宮崎県">宮崎県</option>
+                    <option value="鹿児島県">鹿児島県</option>
+                    <option value="沖縄県">沖縄県</option>
+                  </select>
+                  <p class="alert">都道府県を選択ください</p>
+                </dd>
+  
+                <dt>市区町村以下<span>必須</span></dt>
+                <dd id="shikuSection">
+                  <input type="text" name="city" 
+                  id="shiku">
+                  <p class="alert">市区町村以下をご記入ください</p>
+                </dd>
+  
+                <dt>マンション名等</dt>
+                <dd id="manshonSection">
+                  <input type="text" name="address"
+                  id="manshon">
+                  <p class="alert">マンション名等をご記入ください</p>
+                </dd>
+  
+                <dt>お問い合わせ内容<span>必須</span></dt>
+                <dd id="otoiSection">
+                  <textarea name="message"
+                  id="otoi"></textarea>
+                  <p class="alert">お問い合わせをご記入ください</p>
+                </dd>              
+              </dl>
+              <p class="btn"><input type="submit" value="送信"></p>
+            </form>
+            <p class="gray">お送りいただいた内容については、随時確認させていただきます。<br>
+            内容等によりご返答にお時間を頂く場合や、返信出来ない場合がございます。ご了承ください。</p>
+            <hr>
+            
+          
+        </section>
+  
+        
+      </main>
+  
+    <p class="totop"><a href="../HTML/contact.html"><img src="../images/to_top.png" alt="上に戻る"></a></p>
+   <footer>
+    <div class="ft_nav">
+      <ul class="flex">
+        <li class="nav"><a href="../index.html">Home</a></li>
+        <li class="nav"><a href="../HTML/concept.html">Concept</a></li>
+        <li class="nav"><a href="../HTML/menu.html">Menu</a></li>
+        <li class="nav"><a href="../HTML/design.html">Design</a></li>
+        <li class="nav"><a href="../HTML/Q&A.html">Q&A</a></li>
+        <li class="nav"><a href="../HTML/contact.html">Contact</a></li>
+     </ul>
+   </div>
+   <div class="flex">
+     <div class="left4 flex">
+      <p class="yoyaku_btn2"><a href="../HTML/contact.html"><img src="../images/yoyaku_btn.png" alt="予約はこちら"></a></p>
+      <p class="ft_logo"><img src="../images/top_footer_logo.png" alt="フッターロゴ"></p>
+     </div>
+     <div class="right4 flex">
+       <p class="twitter"><img src="../images/twitter.png" alt="ツイッター"></p>
+       <p class="facebook"><img src="../images/facebook.png" alt="フェイスブック"></p>
+       <p class="pintrest"><img src="../images/pintresut.png" alt="ピンタレスト"></p>
+     </div>
+   </div>
+   <p class="copy">Copyright(c) 2022 FORTUNA.com</p>
+  </footer>
+  
+</body>
+</html>   
