@@ -1,0 +1,229 @@
+@charset "utf-8";
+body,h1,h2,h3,h4,h5,h6,p,ul,li,figure,dl,dd{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  font-family: "游明朝", "HG教科書体", Meiryo, Arial,-apple-system, BlinkMacSystemFont, 'Helvetica Neue', "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", sans-serif;
+  color: #806d5e;
+}
+img{
+  vertical-align: bottom;
+}
+
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+
+}
+/* マウスストーカー */
+#stkr{
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 20px;
+  height: 20px;
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  transition: 0.2s;
+  transition-timing-function: ease-out;
+  pointer-events: none;
+  z-index: 10;
+}
+.stkr-target{
+  display: none;
+}
+
+/* マウスストーカーに影響のない装飾CSS */
+*{ margin: 0;  padding: 0; }
+html, body{ width: 100%; height: 100%; }
+.links div{ margin: 20px 10px; }
+
+
+header{
+    
+    height: auto;
+    background-color: rgba( 0,255,255,0.1);
+    max-width: 100%;
+  }
+  .left{
+    width: 300px;
+    padding-left: 60px;
+  }
+  .right{
+    width: 1219px;
+    padding: 30px 40px 0 20px;
+  }
+  .ue{
+    margin-bottom: 20px;
+  }
+  
+  .nav a{
+    display: inline-block;
+  
+  }
+  .nav a:hover{
+    transition: .5s;
+    -webkit-transform: rotateY(360deg);
+    transform: rotateY(360deg);
+  }
+  
+  
+  .name{
+    font-size: 40px;
+    font-family: 'Times New Roman';
+    color: #806d5e;
+  }
+  .name a{
+    font-size: 14px;
+    font-family: 游明朝;
+    color: #806d5e;
+    font-weight: bold;
+   
+  }
+  
+  .sita ul{
+    color: #806d5e;
+    
+  }
+  .sita li{
+    width: 130px;
+    font-family: 'Times New Roman';
+    font-size: 18px;
+    border-left: 1px solid #806d5e;
+    padding-left: 10px;
+  }
+  .sita ul li a{
+    text-decoration: none;
+    color: #806d5e;
+  }
+  h2{
+    font-family: 游明朝;
+    font-size: 24px;
+    color: #806d5e;
+    border-bottom: 1px solid #806d5e;
+    width: 300px;
+    margin: auto;
+   
+  }
+  h2::before{
+    content: url(../images/bottum_big.png);
+    vertical-align: middle;
+    margin-right: 20px;
+  }
+  
+  
+  .totop{
+    text-align: right;
+    margin-right: 50px;
+    margin-bottom: 10px;
+  }
+  footer{
+    background-color: rgba( 0,255,255,0.1);
+    padding-top: 5px;
+  }
+  .ft_nav ul{
+    color: #806d5e;
+    width: 70%;
+    margin: auto;
+  }
+  .ft_nav li{
+    width: 130px;
+    font-family: 'Times New Roman';
+    font-size: 18px;
+    border-left: 1px solid #806d5e;
+    padding-left: 10px;
+  }
+  .ft_nav ul li a{
+    text-decoration: none;
+    color: #806d5e;
+  }
+  footer .flex{
+    justify-content: space-evenly;
+  }
+  .left4{
+    margin-top: 20px;
+  }
+  .right4{
+    margin-top: 20px;
+    width: 400px;
+    line-height: 70px;
+  }
+  .yoyaku_btn2{
+    margin-right: 200px;
+      line-height: 65px;
+  }
+  .ft_logo{
+    margin-left: 100px
+  }
+  
+  .copy{
+    text-align: center;
+    font-family: 游明朝;
+    font-size: 12px; 
+    color: #806d5e;
+    margin-top: 20px; 
+  }
+  @media screen and (max-width: 640px) {
+
+    .name a{
+      display: block;
+    }
+    .right{
+      padding: 10px;
+      width: auto;
+    }
+    .sita li{
+      width: 33%;
+      box-sizing: border-box;
+      float: left;
+
+    }
+    header{
+      height: 250px;
+      margin-left: 30px;
+      
+    }
+
+    .hd_logo{
+      margin-left: 45px;
+    }
+    .ft_nav li{
+      width: 33%;
+      box-sizing: border-box;
+      float: left;
+    }
+    .yoyaku_btn1{
+      display: none;
+    }
+    .totop{
+      margin-right: 0;
+      margin-top: 10px;
+    }
+    .ft_nav ul {
+      color: #806d5e;
+      width: auto;
+      margin: auto;
+      margin-left: 10px;
+  }
+  .yoyaku_btn2 {
+    margin-right: 0;
+    line-height: 65px;
+    margin-left: 50px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.right4{
+  width: auto;
+  display: flex;
+  columns: 3;
+  padding-left: 20px;
+  margin-top: 0;
+}
+
+footer{
+  margin-left: 30px;
+  width: 100%;
+  
+}
+}
