@@ -1,0 +1,245 @@
+@charset "utf-8";
+.slide{
+    list-style-type: none!important;
+    overflow: hidden;
+    
+    box-shadow: 0 2px 5px rgba( 0,255,255,0.1);
+    padding-top: 5px;
+    
+    width: 120%;
+    height:200px;
+    margin-left:0!important;
+    
+    margin-bottom:2em!important;
+    zoom: 1;
+  }
+  
+  
+  .slide li{
+    float:left;
+    margin-left:0px;
+  }
+  
+  
+  .slide:before,
+  .slide:after{
+      content: " ";
+      display: table;
+  }
+   
+  
+  .slide:after{
+      clear: both;
+  }
+  .clearfix{
+    content:"";
+    display: block;
+    clear: both;
+  }
+  .content {
+    width: 450px;
+    height: 300px;
+  }
+  
+  .slideshow {
+    display: flex;
+  }
+  .wrap {
+    display: flex;
+  }
+  .wrap {
+    display: flex;
+    align-items: center;
+    height: 300px;
+    overflow: hidden;
+  }
+  .slideshow {
+    display: flex;
+    animation: loop-slide 20s infinite linear 1s both;
+  }
+  @keyframes loop-slide {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+    
+}
+.inner{
+    width: 85%;
+    margin: auto;
+}
+main{
+   background-color: rgba( 0,255,255,0.1);
+   overflow: hidden;
+}
+.col-lg-4 {
+    margin-top: 30px;
+  }
+  .box1 {
+    background-color: #fff;
+    width: 85%;
+    margin: auto;
+    height: auto;
+    box-shadow: 7px 7px 10px #ccc;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    padding: 40px;
+  }
+h2{
+    width: 23%;
+}  
+  
+h3{
+    color: #806d5e;
+    font-size: 20px;
+    font-family: 游明朝;
+    border-bottom: 1px solid #806d5e;
+    margin: auto;
+}
+h3::before{
+  content: url(../images/buttom_small.png);
+  vertical-align: middle;
+  
+}
+.nedan{
+    color: #806d5e;
+    font-size: 16px;
+    font-family: 游明朝;
+    margin-top: 10px;
+    text-align: center;
+}
+.setumei{
+    color: #806d5e;
+    font-size: 16px;
+    font-family: 游明朝;
+    margin-top: 20px;
+    text-align: center;
+}
+.moon{
+    width: 40%;
+}
+.hand5{
+    width: 43%;
+}
+.one{
+    width: 33%;
+}
+.gradation{
+    width: 38%;
+}
+    
+.french{
+    width: 33%;
+}
+.foot5{
+    width: 43%;
+}
+.footone{
+    width: 35%;
+}
+.off{
+    width: 60%;
+}
+.offf{
+    width: 50%;
+}
+.footoff{
+    width: 35%;
+}
+.totop{
+    margin-bottom: 0;
+    margin-right: 20px;
+    padding-bottom: 10px;
+}
+.eachTextAnime span{opacity: 0;}
+.eachTextAnime.appeartext span{ animation:text_anime_on 0.5s ease-out forwards; }
+@keyframes text_anime_on {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+@media screen and (max-width: 640px) {
+  img{
+    max-width: 100%;
+    height: auto;
+  }
+  #stkr {
+    display: none;
+  }
+   main{
+      width: 355px;
+      padding: 0 10px;
+      margin-left: 30px;
+   }
+  
+   body{
+     width: auto;
+   }
+   .image img{
+     width: auto;
+   }
+   .flex{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+   }
+   .right{
+     width: auto;
+   }
+   .left2{
+    margin-top: 30px;
+    height: auto;
+   }
+   .left3{
+     width: auto;
+     margin-top: 30px;
+   }
+   h2{
+     width: 100%;
+   }
+   .moon{
+     width: 100%;
+   }
+   .box1{
+    width: 100%;
+    margin-top: 0;
+    padding: 10px;
+    margin-bottom: 30px;
+    
+   }
+   .setumei{
+     text-align: left;
+   }
+  .hand5{
+    width: 100%;
+  }
+  .one{
+    width: 100%;
+  }
+  .gradation{
+    width: 100%;
+  }
+ .french{
+   width: 100%;
+ }
+ .foot5
+ {
+   width: 100%;
+ }
+ .footone{
+   width: 100%;
+ }
+ .off{
+   width: 100%;
+ }
+ .offf{
+   width: 100%;
+ }
+ .footoff{
+   width: 100%;
+ }
+ .slide{
+   width: 180%;
+ }
+  }
